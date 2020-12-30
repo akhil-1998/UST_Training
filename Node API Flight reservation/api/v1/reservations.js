@@ -8,6 +8,7 @@ var db = require('../../db/reservations')
 //Error info
 var apiErrors = require('../../util/errors')
 var apiMessages = require('../../util/message')
+var MAX_AGE = 15
 
 module.exports = function(router){
     'use strict';
