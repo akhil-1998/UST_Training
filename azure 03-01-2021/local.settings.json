@@ -1,0 +1,13 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "MONGODB_URL": "mongodb://cosmosdb-ust-todos1:80GcJ1UXVJRV5vFxxz1PI6gSbgLxF962VsqM9H0miUPQeBKLBodKqkt4ObcWptyB5RCcBSu6icsemCp48Q7tPg%3D%3D@cosmosdb-ust-todos1.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@cosmosdb-ust-todos1@",
+    "MONGODB_DATABASE_NAME":"serverless" ,
+    "MONGODB_COLLECTION_NAME":"todos"
+  },
+  "HOST": {
+    "CORS": "*"
+  }
+}
