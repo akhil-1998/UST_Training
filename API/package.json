@@ -1,0 +1,25 @@
+{
+  "name": "uridemo",
+  "version": "1.0.0",
+  "description": "This is part of the course on \"REST API Development\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "architecture",
+    "constraints"
+  ],
+  "author": "venkat",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
